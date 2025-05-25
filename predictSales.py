@@ -68,21 +68,21 @@ def predecir_venta_total(user_input):
     }
 
 # Ejemplo de uso
-if __name__ == "__main__":
-    sample_input = {
-        'NIVELSOCIOECONOMICO_DES': 3,
-        'MTS2VENTAS_NUM': 2,
-        'PUERTASREFRIG_NUM': 4,
-        'CAJONESESTACIONAMIENTO_NUM': 2,
-        'LATITUD_NUM': 20.67,
-        'LONGITUD_NUM': -100.31,
-        'ENTORNO_DES': 'Base',
-        'SEGMENTO_MAESTRO_DESC': 'Parada Técnica',
-        'LID_UBICACION_TIENDA_UT': 'UT_GAS_URBANA'
-    }
+# if __name__ == "__main__":
+#     sample_input = {
+#         'NIVELSOCIOECONOMICO_DES': 3,
+#         'MTS2VENTAS_NUM': 2,
+#         'PUERTASREFRIG_NUM': 4,
+#         'CAJONESESTACIONAMIENTO_NUM': 2,
+#         'LATITUD_NUM': 20.67,
+#         'LONGITUD_NUM': -100.31,
+#         'ENTORNO_DES': 'Base',
+#         'SEGMENTO_MAESTRO_DESC': 'Parada Técnica',
+#         'LID_UBICACION_TIENDA_UT': 'UT_GAS_URBANA'
+#     }
 
-    resultado = predecir_venta_total(sample_input)
-    print(resultado)
+#     resultado = predecir_venta_total(sample_input)
+#     print(resultado)
 
 # Configuración de Flask
 app = Flask(__name__)
